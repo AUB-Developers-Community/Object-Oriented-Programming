@@ -6,7 +6,7 @@ public class DataTypes {
     int year = 2023;
     long average = 543324;
     float radius = 2.93f;
-    double accuracy = 3.13051;
+    double accuracy = 3.13051d;
     boolean isMale = true;
     char chr = 'L';
     
