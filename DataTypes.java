@@ -9,8 +9,14 @@ public class DataTypes {
     double accuracy = 3.13051d;
     boolean isMale = true;
     char chr = 'L';
+    // with ASCII
+    char myVar = 65; // 65 = A
     
-    System.out.println(byt + "\n" + sht + "\n" + year + "\n" + average + "\n" + radius + "\n" + accuracy + "\n" + isMale + "\n" + chr);
+    System.out.println(byt + "\n" + sht + "\n" + year + "\n" + average + "\n" + radius + "\n" + accuracy + "\n" + isMale + "\n" + chr + "\n" + myVar);
+  }
+  
+  private static void NonPrimitiveDataTypes() {
+    //
   }
   
   public static void main(String[] args) {
