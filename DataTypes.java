@@ -4,13 +4,13 @@ public class DataTypes {
     byte byt = 100;
     short sht = 234;
     int year = 2023;
-    long average = 543324;
+    long average = 543324L;
     float radius = 2.93f;
     double accuracy = 3.13051d;
     boolean isMale = true;
     char chr = 'L';
     
-    System.out.println(byt);
+    System.out.println(byt + "\n" + sht + "\n" + year + "\n" + average + "\n" + radius + "\n" + accuracy + "\n" + isMale + "\n" + chr);
   }
   
   public static void main(String[] args) {
