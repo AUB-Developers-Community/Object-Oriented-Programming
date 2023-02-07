@@ -21,10 +21,21 @@ public class DataTypes {
     // 2. Array
     // 3. Classes
     // 4. Interface.. etc.
+    
+    // String
     String name = "Md. Zahangir Alam";
+    
+    // Array
+    double[] gradePoint = {2.5, 3.04, 2.87, 3.56, 3.27, 2.96, 3.58};
+    
+    System.out.println(name);
+    for (double gp: gradePoint) {
+      System.out.println(gp);
+    }
   }
   
   public static void main(String[] args) {
     PrimitiveDataTypes();
+    NonPrimitiveDataTypes();
   }
 }
