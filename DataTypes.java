@@ -16,7 +16,12 @@ public class DataTypes {
   }
   
   private static void NonPrimitiveDataTypes() {
-    //
+    // Non-Primitive Data Types or, reference types
+    // 1. String
+    // 2. Array
+    // 3. Classes
+    // 4. Interface.. etc.
+    String name = "Md. Zahangir Alam";
   }
   
   public static void main(String[] args) {
