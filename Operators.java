@@ -16,5 +16,42 @@ public class Operators {
 
     public static void main(String[] args) {
         Arithmetic();
+        Assignment();
+    }
+
+    public static void Assignment() {
+        // assignment
+        int x = 17;
+        System.out.println(x);
+        // additional assignment
+        x += 2;
+        System.out.println(x);
+        // subtraction assignment
+        x -= 1;
+        System.out.println(x);
+        // multiplication assignment
+        x *= 2;
+        System.out.println(x);
+        // division assignment
+        x /= 2;
+        System.out.println(x);
+        // percent assignment
+        x %= 2;
+        System.out.println(x);
+        // and assignment
+        x &= 2;
+        System.out.println(x);
+        // or assignment
+        x |= 2;
+        System.out.println(x);
+        //
+        x ^= 2;
+        System.out.println(x);
+        // right shift assignment
+        x >>= 3;
+        System.out.println(x);
+        // left shift assignment
+        x <<= 3;
+        System.out.println(x);
     }
 }
