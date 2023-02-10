@@ -17,6 +17,7 @@ public class Operators {
     public static void main(String[] args) {
         Arithmetic();
         Assignment();
+        Comparison();
     }
 
     public static void Assignment() {
@@ -53,5 +54,47 @@ public class Operators {
         // left shift assignment
         x <<= 3;
         System.out.println(x);
+    }
+
+    public static void Comparison() {
+        int a = 6;
+        int b = 3;
+
+        if (a == b) {
+            System.out.println("a and b are both same");
+        }
+        else {
+            System.out.println("a and b are both not same");
+        }
+
+        if (a != b) {
+            System.out.println("a and b are both not equal");
+        } else {
+            System.out.println("a and b are both same");
+        }
+
+        if (a > b) {
+            System.out.println("a is greater than b");
+        } else {
+            System.out.println("a is not greater than b");
+        }
+
+        if (a < b) {
+            System.out.println("a is less than b");
+        } else {
+            System.out.println("a is not less than b");
+        }
+
+        if (a >= b) {
+            System.out.println("a is greater than or equal b");
+        } else {
+            System.out.println("a is not greater than or equal b");
+        }
+
+        if (a <= b) {
+            System.out.println("a is less than or equal b");
+        } else {
+            System.out.println("a is not less than or equal b");
+        }
     }
 }
