@@ -16,8 +16,8 @@ public class Operators {
 
     public static void main(String[] args) {
         Arithmetic();
-        Assignment();
-        Comparison();
+        //Assignment();
+        //Comparison();
     }
 
     public static void Assignment() {
@@ -70,7 +70,7 @@ public class Operators {
         if (a != b) {
             System.out.println("a and b are both not equal");
         } else {
-            System.out.println("a and b are both same");
+            System.out.println("a and b are equal");
         }
 
         if (a > b) {
