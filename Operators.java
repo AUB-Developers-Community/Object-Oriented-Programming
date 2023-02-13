@@ -15,31 +15,37 @@ public class Operators {
     }
 
     public static void main(String[] args) {
-        //Arithmetic();
-        Assignment();
-        //Comparison();
+        // Arithmetic();
+        // Assignment();
+        Comparison();
     }
 
     public static void Assignment() {
-        // assignment
+        ///// assignment
         int x = 17;
         System.out.println(x); // 17
-        // additional assignment
+
+        //////// additional assignment
         x += 2;
         System.out.println("addition assignment: "+ x); // 19
-        // subtraction assignment
+
+        /////// subtraction assignment
         x -= 1;
         System.out.println("subtraction assignment: "+ x); // 18
-        // multiplication assignment
+
+        ////// multiplication assignment
         x *= 2;
         System.out.println("multiplication assignment: "+ x); // 36
-        // division assignment
+
+        ///// division assignment
         x /= 2;
         System.out.println("division assignment: "+ x); // 18
-        // percent assignment
+
+        ///// modulus assignment
         x %= 2;
         System.out.println("modulus assignment: "+ x); // 0
-        // and assignment
+
+        ////// and assignment
         x = 15;
         x &= 12;
         /**
@@ -96,41 +102,47 @@ public class Operators {
         int a = 6;
         int b = 3;
 
+        // Equal to operator
         if (a == b) {
-            System.out.println("a and b are both same");
+            System.out.println("value of a and b are both same");
         }
         else {
-            System.out.println("a and b are both not same");
+            System.out.println("value of a and b are both not same");
         }
 
+        // Not equal to operator
         if (a != b) {
-            System.out.println("a and b are both not equal");
+            System.out.println("value of a and b are both not equal");
         } else {
-            System.out.println("a and b are equal");
+            System.out.println("value of a and b are equal");
         }
 
+        // Greater than operator
         if (a > b) {
-            System.out.println("a is greater than b");
+            System.out.println("value of a is greater than value of b");
         } else {
-            System.out.println("a is not greater than b");
+            System.out.println("value of b is greater than value of a");
         }
 
+        // Less than operator
         if (a < b) {
-            System.out.println("a is less than b");
+            System.out.println("value of a is less than value of b");
         } else {
-            System.out.println("a is not less than b");
+            System.out.println("value of b is less than value of a");
         }
 
+        // Greater than or equal operator
         if (a >= b) {
-            System.out.println("a is greater than or equal b");
+            System.out.println("value of a is greater than or equal to value of b");
         } else {
-            System.out.println("a is not greater than or equal b");
+            System.out.println("value of b is greater than or equal to value of a");
         }
 
+        // Less than or equal operator
         if (a <= b) {
-            System.out.println("a is less than or equal b");
+            System.out.println("value of a is less than or equal to value of b");
         } else {
-            System.out.println("a is not less than or equal b");
+            System.out.println("value of b is less than or equal to value of a");
         }
     }
 }
