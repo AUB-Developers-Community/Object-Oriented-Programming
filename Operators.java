@@ -1,4 +1,11 @@
 public class Operators {
+    public static void main(String[] args) {
+        // Arithmetic();
+        // Assignment();
+        // Comparison();
+        Logical();
+    }
+
     public static void Arithmetic() {
         int n1 = 5;
         int n2 = 2;
@@ -12,12 +19,6 @@ public class Operators {
         int decrement = --n1;
 
         System.out.println("Addition= " + addition + "\nSubtraction= " + subtraction + "\nMultiplication= " + multiplication + "\nDivision= " + division + "\nModulus= " + modulus + "\nIncrement= " + increment + "\nDecrement= " + decrement);
-    }
-
-    public static void main(String[] args) {
-        // Arithmetic();
-        // Assignment();
-        Comparison();
     }
 
     public static void Assignment() {
@@ -143,6 +144,26 @@ public class Operators {
             System.out.println("value of a is less than or equal to value of b");
         } else {
             System.out.println("value of b is less than or equal to value of a");
+        }
+    }
+
+    public static void Logical() {
+        int m = 4;
+        int n = 7;
+
+        // Logical and
+        if (n>m && n<10) {
+            System.out.println("n is greater than m and is less than 10");
+        }
+
+        // Logical or
+        if (m<n || m>7) {
+            System.out.println("m is less than n or is greater than 7");
+        }
+
+        // Logical not
+        if (!(m>= n)) {
+            System.out.println("m is not greater than or equal to n");
         }
     }
 }
