@@ -22,6 +22,9 @@ public class jString {
 
         // Concatenation
         concatenation();
+
+        // Escape Characters
+        EscapeCharacters();
     }
 
     public static void concatenation() {
@@ -29,5 +32,22 @@ public class jString {
         String sName = "Frasw";
 
         System.out.println(fName + " " + sName);
+    }
+
+    public static void EscapeCharacters() {
+        String newLinetext = "Hello\nworld!";
+        System.out.println("New line: " + newLinetext);
+
+        String CarriageReturn = "Hello\rWorld!";
+        System.out.println("Carriage Return: "+CarriageReturn);
+
+        String Tabtext = "Hello\tworld!";
+        System.out.println("Tab: " + Tabtext);
+
+        String backspacetext = "Hello\bworld!";
+        System.out.println("Backspace: " + backspacetext);
+
+        String formFeed = "Hello\fForm";
+        System.out.println("Form Feed: "+formFeed);
     }
 }
