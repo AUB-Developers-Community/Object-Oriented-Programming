@@ -83,8 +83,13 @@ public class Operators {
         System.out.println("right shift assignment: " + x); // 5
 
         ////////// left shift assignment
-        x <<= 3;
-        System.out.println(x);
+        x <<= 1;
+        /**
+         * 1 0 1 0 0 0 0 0 = 5
+         * now shift 1 bit, left to right
+         * 0 1 0 1 0 0 0 0 which means 10 in decimal
+         */
+        System.out.println("left shift assignment: " + x); // 10
     }
 
     public static void Comparison() {
