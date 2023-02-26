@@ -8,6 +8,14 @@ public class TV {
     public TV() {
     }
 
+    public int getChannel() {
+        return channel;
+    }
+
+    public int getVolumeLevel() {
+        return volumeLevel;
+    }
+
     public void turnOn() {
         on = true;
     }
@@ -22,7 +30,7 @@ public class TV {
         }
     }
 
-    public void setVolumeLevel(int newVolumeLevel) {
+    public void setVolume(int newVolumeLevel) {
         if (on && newVolumeLevel >= 1 && newVolumeLevel <= 7) {
             volumeLevel = newVolumeLevel;
         }
