@@ -9,6 +9,9 @@ public class TestCircle {
 
         SimpleCircle obj_second = new SimpleCircle(2.37d);
         System.out.println("perimeter:" + obj_second.getPerimeter());
+
+        // anonymous object: new SimpleCircle().getArea()
+        System.out.println("myArea= " + new SimpleCircle().getArea());
     }
 }
 
