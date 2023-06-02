@@ -7,7 +7,7 @@ class MysqlCon{
             Class.forName("com.mysql.jdbc.Driver");  
             Connection con=DriverManager.getConnection(  
          "jdbc:mysql://localhost:3306/php","root","password");  
-            //here php is database name, sj is username and password  
+            //here php is database name, root is username and password  
             Statement stmt=con.createStatement();  
             ResultSet rs=stmt.executeQuery("select * from piu_users");  
                     
