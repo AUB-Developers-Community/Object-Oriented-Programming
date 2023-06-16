@@ -22,3 +22,6 @@ public class LCM
 		
 	}
 }
+
+
+// resource: https://en.wikipedia.org/wiki/Least_common_multiple
