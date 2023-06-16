@@ -1,5 +1,5 @@
 import java.util.*;
-// gcd
+// using gcd
 public class LCMwithGCD
 {
 	public static void main(String[] args) {
