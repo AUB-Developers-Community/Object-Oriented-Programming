@@ -8,8 +8,6 @@ public class PalindromCheck
 		String userInput = scanner.nextLine();
 		
 		String revString = "";
-		
-		boolean isPrime = true;
 		int strl = userInput.length();
 		int i = strl-1;
 		
